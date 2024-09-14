@@ -87,3 +87,5 @@ else()
 	target_include_directories(robotics_cape PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)
 
 endif()
+
+install(TARGETS robotics_cape TYPE ARCHIVE)
