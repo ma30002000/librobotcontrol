@@ -1,8 +1,6 @@
 
 add_definitions(-DRC_AUTOPILOT_EXT)
 
-include_directories(/usr/include)
-
 add_compile_options(
 	-Wno-cast-align
 	-Wno-logical-op
