@@ -223,3 +223,8 @@ pru_firmware/file.map
 pru_firmware/main_pru0.asm
 pru_firmware/main_pru1.asm
 
+### CLion ###
+.idea/
+
+# CMake
+cmake-build-*/
