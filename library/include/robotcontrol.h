@@ -23,7 +23,6 @@
 #include <rc/bmp.h>
 #include <rc/button.h>
 #include <rc/cpu.h>
-#include <rc/deprecated.h>
 #ifdef RC_AUTOPILOT_EXT
 #include "rc/dsm.h"
 #else

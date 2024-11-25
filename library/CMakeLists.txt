@@ -44,7 +44,6 @@ add_library(robotics_cape
 )
 
 set (INCLUDE_FILES
-	include/rc_usefulincludes.h
 	include/rc/version.h
 	include/rc/spi.h
 	include/rc/button.h
@@ -252,9 +251,7 @@ set (INCLUDE_FILES
 	include/rc/servo.h
 	include/rc/pthread.h
 	include/rc/mavlink_udp.h
-	include/rc/deprecated.h
 	include/rc/encoder_eqep.h
-	include/roboticscape.h
 	include/robotcontrol.h
 )
 
