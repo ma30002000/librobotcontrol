@@ -261,5 +261,7 @@ target_sources(robotics_cape PUBLIC
 		BASE_DIRS include
 		FILES ${INCLUDE_FILES})
 
+target_link_libraries(robotics_cape PRIVATE m)
+
 install(TARGETS robotics_cape FILE_SET public_headers)
 install(TARGETS robotics_cape TYPE ARCHIVE)
